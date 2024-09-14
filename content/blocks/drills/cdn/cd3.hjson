@@ -1,0 +1,26 @@
+type: Drill
+category:'production'
+name:'CD3'
+description:'A 3 x 3 copper drill.'
+size:3
+tier:2
+drillTime:600
+requirements:[
+ copper/27
+]
+itemCapacity:20
+health:360
+//warmupSpeed: 1
+hasLiquids: true
+consumes: {
+	liquid: {
+		liquid: 'water'
+		amount: 0.05
+		optional: true
+		booster: true
+	}
+}
+research:mechanical-drill
+//liquidBoostIntensity: 1
+//hardnessDrillMultiplier:
+

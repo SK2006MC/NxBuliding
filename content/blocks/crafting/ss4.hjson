@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: 'SS4'
+description: 'A 4 x 4 silicon smelter'
+size: 4
+requirements: [
+	copper/120
+	lead/100
+]
+craftEffect: 'smeltsmoke'
+itemCapacity:40
+category: 'crafting'
+outputItem: silicon/4
+hasPower: true
+hasLiquids: false
+craftTime: 40
+consumes:{
+	power: 2
+	items:[
+		coal/4
+		sand/8
+	]
+}
+
+research: 'silicon-smelter'
+

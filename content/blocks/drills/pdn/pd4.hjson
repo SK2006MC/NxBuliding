@@ -1,0 +1,27 @@
+type: Drill
+category:'production'
+name:'PD4'
+description:'A 4 x 4 pneumatic drill.'
+size:4
+tier:3
+drillTime:400
+requirements:[
+ copper/80
+ graphite/48
+]
+health:640
+itemCapacity:40
+//warmupSpeed: 1
+hasLiquids: true
+consumes: {
+	liquid: {
+		liquid: 'water'
+		amount: 0.06
+		optional: true
+		booster: true
+	}
+}
+research:cd3
+//liquidBoostIntensity: 1
+//hardnessDrillMultiplier:
+

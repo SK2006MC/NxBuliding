@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: 'GP4'
+description: 'A 4 x 4 graphite press'
+size: 4
+requirements: [
+	copper/300
+	lead/120
+]
+itemCapacity:40
+category: 'crafting'
+outputItem: graphite/4
+hasLiquids: false
+craftTime: 90
+consumes:{
+	items:[
+		coal/8
+	]
+}
+
+research: 'graphite-press'
+

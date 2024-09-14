@@ -1,0 +1,26 @@
+type: Drill
+category:'production'
+name:'CD4'
+description:'A 4 x 4 copper drill.'
+size:4
+tier:2
+drillTime:600
+requirements:[
+ copper/48
+]
+health:640
+itemCapacity:40
+//warmupSpeed: 1
+hasLiquids: true
+consumes: {
+	liquid: {
+		liquid: 'water'
+		amount: 0.05
+		optional: true
+		booster: true
+	}
+}
+research:cd3
+//liquidBoostIntensity: 1
+//hardnessDrillMultiplier:
+

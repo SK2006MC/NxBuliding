@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: 'K4'
+description: 'A 4 x 4 kiln'
+size: 4
+requirements: [
+	copper/240
+	lead/120
+	graphite/120
+]
+craftEffect: 'smeltsmoke'
+itemCapacity:40
+category: 'crafting'
+outputItem: metaglass/4
+hasPower: true
+hasLiquids: false
+craftTime: 30
+consumes:{
+	power: 2.4
+	items:[
+		lead/4
+		sand/4
+	]
+}
+
+research: 'kiln'
+
