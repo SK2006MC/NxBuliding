@@ -1,4 +1,5 @@
 displayName:"NxBuilding"
+description:"scaled up version of buildings"
 name:"nx-building"
 version: 1.0
 minGameVersion: 137
